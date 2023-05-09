@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('/pexels-ben-taylor-109998.jpg');
+    /* height: 4000px;    */
+    color: aliceblue;
+}
+.left{
+    display: inline-block;
+    border: 2px solid red;
+    position: absolute;
+    left: 45px;
+    top: 12px;
+}
+.right{
+    display: inline-block;
+    border: 2px solid red;
+    position: absolute;
+    right: 45px;
+    top: 12px;
+}
+.mid{
+    display: block;
+    width: 30%;
+    margin: 12px auto;
+    border: 2px solid red;
+}
+.navbar{
+    display: inline-block;
+    font-size: medium;
+}
+.navbar li a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: darkmagenta;
+}
+.left img{
+    width: 60px;
+    filter: invert(100%);
+}
+.left{
+    text-align: center;
+}
