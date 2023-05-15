@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Bebas Neue', sans-serif;
     background: url('/pexels-ben-taylor-109998.jpg');
     /* height: 4000px;    */
     color: aliceblue;
@@ -9,9 +10,10 @@ body{
     display: inline-block;
     border: 2px solid red;
     position: absolute;
-    left: 45px;
+    left: 60px;
     top: 12px;
 }
+
 .right{
     display: inline-block;
     border: 2px solid red;
@@ -21,13 +23,18 @@ body{
 }
 .mid{
     display: block;
-    width: 30%;
+    width: 36%;
     margin: 12px auto;
     border: 2px solid red;
 }
 .navbar{
     display: inline-block;
-    font-size: medium;
+    /* font-size: medium; */
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    /* font-size: 25px; */
 }
 .navbar li a{
     color: antiquewhite;
@@ -39,9 +46,29 @@ body{
     color: darkmagenta;
 }
 .left img{
-    width: 60px;
+
+    width: 70px;
     filter: invert(100%);
 }
 .left{
+    line-height: block;
+    font-size: 26px;
+    /* font-size: small; */
     text-align: center;
+}
+.btn{
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0px 9px;
+    color: antiquewhite;
+    background-color: rgb(133, 0, 173);
+    padding: 4px 14px;
+    border: 2px solid navy;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.btn:hover{
+    background-color: rgb(76, 3, 245);
+}
+.content{
+    border: 2px solid green;
 }
