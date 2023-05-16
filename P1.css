@@ -3,29 +3,32 @@ body{
     padding: 0px;
     font-family: 'Bebas Neue', sans-serif;
     background: url('/pexels-ben-taylor-109998.jpg');
+    background-size: 100% 100%;
     /* height: 4000px;    */
     color: aliceblue;
 }
 .left{
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
     left: 60px;
     top: 12px;
 }
 
 .right{
+    
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
     right: 45px;
-    top: 12px;
+    top: 43px;
 }
 .mid{
+    
     display: block;
     width: 36%;
-    margin: 12px auto;
-    border: 2px solid red;
+    margin: 29px auto;
+    /* border: 2px solid red; */
 }
 .navbar{
     display: inline-block;
@@ -43,7 +46,7 @@ body{
 }
 .navbar li a:hover, .navbar li a.active{
     text-decoration: underline;
-    color: darkmagenta;
+    color: rgb(167, 1, 167);
 }
 .left img{
 
@@ -60,15 +63,40 @@ body{
     font-family: 'Bebas Neue', sans-serif;
     margin: 0px 9px;
     color: antiquewhite;
-    background-color: rgb(133, 0, 173);
-    padding: 4px 14px;
+    background-color: rgb(137, 0, 179);
+    padding: 4px 30px;
     border: 2px solid navy;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 13px;
 }
 .btn:hover{
     background-color: rgb(76, 3, 245);
 }
 .content{
-    border: 2px solid green;
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 50px;
+    width: 33%;
+    /* display: block; */
+    border-radius: 28px;
+}
+.details input{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.content button{
+    display: block;
+    width: 90%;
+    margin: 30px auto;
+    font-size: 20px;
+}
+.content h1{
+    text-align: center;
 }
