@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="Practice1styles.css">
+</head>
+
+<body>
+    <form action="" id="survey-form">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This survey form developed for simple practice problem in Web development domain.
+        Written further from here about it is nothing but garbage - Lorem ipsum dolor sit amet consectetur, adipisicing
+        elit. Veritatis a maxime dolores, repellat animi facere velit blanditiis soluta, fuga quia illo aliquid qui
+        sequi amet dolor molestiae incidunt fugit rem.
+    </p>
+        <label for="name" id="name-label">
+            Name
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+        </label>
+        <label for="email" id="email-label">
+            Email
+            <input type="email" name="email" pattern="[a-z0-9]" id="email" placeholder="Enter your email">
+        </label>
+        <label for="number" id="number-label">
+            Number
+            <input type="number" name="number" id="number" min="1000000000" max="9999999999" placeholder="Enter your phone umber">  
+        </label>
+        <select name="dropdown" id="dropdown">
+            <option value="">Select Country</option>
+            <option value="1">India</option>
+            <option value="2">America</option>
+        </select>
+        <fieldset>
+            <p>Choose language</p>
+            <label for="english" >
+                <input class="ds" type="radio" name="language"> English
+            </label>
+            <label for="hindi">
+                <input class="ds" type="radio" name="language"> Hindi
+            </label>
+        </fieldset>
+        <fieldset>
+            <p>Select hobbies</p>
+            <label for="Reading">
+                <input class="ds" type="checkbox" name="hobbie" value="Reading">Reading
+            </label>
+            <label for="Walking">
+                <input class="ds" type="checkbox" name="hobbie" value="Walking">Walking
+            </label>
+            <label for="Playing">
+                <input class="ds" type="checkbox" name="hobbie" value="Playing">Playing
+            </label>
+        </fieldset>
+         <textarea name="textarea" cols="30" rows="10">Enter your comments here...</textarea>
+            <button id="submit">Submit</button>
+    </form>
+</body>
+
+</html>
