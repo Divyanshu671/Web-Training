@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College-1</title>
+    <style>
+        header {
+            display: flex;
+            text-align: center;
+            background-color: navy;
+            color: white;
+        }
+
+        .navbar {
+            display: block;
+            margin-left: 10rem;
+            margin-right: 12px;
+            text-align: center;
+            font-size: 25px;
+            height: 20px;
+            padding-left: 12px;
+
+        }
+
+        .main {
+            display: flex;
+        }
+        
+        .main div {
+            border: 1px solid black;
+            height: 420px;
+            width: 33.3%;
+        }
+        .main div img {
+            height: 100%;
+            width: 100%;
+        }
+        .div2 {
+            position: relative;
+        }
+        .head {
+            position: absolute;
+            text-decoration: underline;
+            left: 45%;
+            text-align: center;
+            top: 0;
+        }
+        .body {
+            padding: 3rem;;
+            position: absolute;
+            top: 30px;
+            font-weight: bold;
+            text-decoration: underline;
+            top: 0;
+        }
+        .cl {
+            position: relative;
+        }
+        footer {
+            position: relative;
+            background-color: navy;
+            height: 50px;
+            color: white;
+        }
+        .am {
+            position: absolute;
+            left: 5px;
+        }
+        .an {
+            position: absolute;
+            left: 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5LJT3p5SDUU3seUGZQ03FF61oBJQobBB-cRpTmxFq1g&s"
+                alt="PSIT logo">
+        </div>
+        <div class="navbar">
+            <h1>Pranveer Singh Institute of Technology</h1>
+            <h1>Kanpur</h1>
+        </div>
+    </header>
+    <div class="main">
+        <div>
+            <h1 style="text-decoration: underline;">Department</h1>
+            <p><a href="">Computer Science & ENGG</a></p>
+            <a href="">Information Technolgy</a>
+            <a href="">Electronics & Communication Engg</a>
+        </div>
+        <div class="div2">
+            <img src="data:image/jpeg;base64,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"
+                alt="image">
+            <h2 class="head">About</h2>
+            <p class="body">
+                Pranveer Singh Institute of Technology University in 
+                Bhautipratappur. Uttar Pradesh Pranveer Singh Institute of 
+                Technology is an engineering institute in Kanpur.Uttar Pradesh,
+                India. The institute is approved by the ALL India Council For Techical Education and affiliated to Uttar Pradesh Technical
+                University.
+            </p>
+        </div>
+        <div class="cl">
+            <h1 style="color: red; text-decoration: underline;text-align: center;">NEWS</h1>
+            <p style="position: absolute; display: flex; bottom:8px">1. AMCAT TEST FOR B.TECH THIRD YEAR</p>
+        </div>
+    </div>
+    <footer>
+        <div class="am">
+            <p>
+                Social Media
+            </p>
+        </div>
+        <div class="an">
+            <p>Designed By: Divyanshu</p>
+            <p>College: PSIT</p>
+        </div>
+    </footer>
+</body>
+
+</html>
